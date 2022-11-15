@@ -1,0 +1,55 @@
+@media (max-width: 511px)  { /*стили применяются, когда екран становится меньше 480px*/
+    /*header*/
+    .header-wrapper {
+        width: 80%;
+    }
+    .header-icons {
+        width: 95%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .header-icon:not(:last-child) {
+        margin-right: 20px;
+    }
+    /*intro*/
+    .intro-nav {
+        flex-wrap: wrap;
+        justify-content: normal;
+    }
+    .nav-link {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .nav-link.btn {
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+    }
+  /*intro*/  
+    .intro-img {
+        display: none;
+    }
+    .intro-text {
+        width: 100%;
+    }
+
+    /*block actual*/
+    .actual-wrap {
+        width: 80%;
+    }
+    .title-text {
+        text-align: left;
+    }
+    .actual-blocks {
+     display: block;
+    }
+    .actual-block {
+        width: 100%;
+        margin-bottom: 30px;  
+    }
+    .actual-img {
+        background-size: cover;
+        /*background-position: center;*/
+    }
+}
